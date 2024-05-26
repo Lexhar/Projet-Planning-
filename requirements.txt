@@ -1,0 +1,6 @@
+Ce projet nécessite l'installation des bibliothèques suivantes :
+
+networkx
+pulp
+pandas
+matplotlib
