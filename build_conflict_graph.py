@@ -1,7 +1,7 @@
 import networkx as nx
 
 # Construire le graph de conflits entre les examens
-# Si deux examens partagent la même arrête elles sont incompatible
+# Si deux examens partagent la même arrête ils sont incompatibles
 def build_conflict_graph(exams):
     G = nx.Graph()
     for exam in exams:
